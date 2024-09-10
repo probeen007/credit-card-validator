@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real Credit Card Validator</h1>
+    </header>
+
+    <main>
+        <div class="card-container">
+            <input type="text" id="cardNumber" placeholder="xxxx xxxx xxxx xxxx" maxlength="19">
+            <button id="verifyButton">Verify</button>
+            <div id="cardInfo" class="hidden">
+                <img id="cardLogo" src="" alt="Card Logo">
+                <p id="cardType"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Supported Credit Cards:</p>
+        <ul>
+            <li><img src="https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg" alt="American Express Logo"> American Express</li>
+            <li><img src="https://www.mastercard.com/content/dam/public/mastercardcom/mea/za/logos/mc-logo-52.svg" alt="MasterCard Logo"> MasterCard</li>
+            <li><img src="https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png" alt="Visa Logo"> Visa</li>
+        </ul>
+        <p class="footer-text">Made by Prabin</p>
+    </footer>
+
+    <script src="logic.js"></script>
+</body>
+</html>
