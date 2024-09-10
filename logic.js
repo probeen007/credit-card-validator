@@ -23,6 +23,7 @@ document.getElementById('verifyButton').addEventListener('click', function() {
             logoSrc = 'https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png';
         } else {
             type = 'INVALID';
+            logoSrc = 'https://t1.ftcdn.net/jpg/00/92/92/40/500_F_92924085_irR55htiF7LR1TfXrLBQpcXbkRIfIc4q.jpg'
             
         }
         
