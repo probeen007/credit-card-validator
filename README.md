@@ -2,7 +2,7 @@
 
 Welcome to the **Credit Card Validator** - a sleek and interactive web application designed to validate and identify credit card numbers with style! This project leverages modern web technologies to deliver a visually stunning user experience.
 
-![Credit Card Validator](./prev (2).png) <!-- Replace with actual image -->
+![Credit Card Validator](./pre.png) <!-- Replace with actual image -->
 
 ## 🌟 **Features**
 
